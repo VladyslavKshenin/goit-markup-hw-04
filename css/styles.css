@@ -592,12 +592,14 @@ img{
 }
 .addition-link{
     display: block;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.addition-link:hover{
+
+.addition-link:hover .portfolio-img-text{
     transform: translateY(0%);
 }
+
 .container-portfolio-img{
     position: relative;
     overflow: hidden;
@@ -708,18 +710,13 @@ img{
 .modal-btm:hover{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 .modal-btm:focus{
         background-color: #404bbf;
         border: none;
+        fill: #ffffff;
 }
 .modal-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.modal-icon:hover{
-     fill: #ffffff;
-}
-.modal-icon:focus{
-     fill: #ffffff;
-}
-   
